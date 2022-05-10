@@ -1,0 +1,135 @@
+.herader_dangky {
+	display: flex;
+	margin-top: 25px;
+	background-color: #f8fbcd;
+}
+.dang_ky {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.form_dangky {
+	margin-top: 10px;
+	width: 550px;
+	background-color: #ffffff;
+	filter: drop-shadow(0 0 8px #ff62fe);
+	border-radius: 12px;
+}
+.verticalLine {
+	border-left: thick solid #ff0000;
+	font-family: cursive;
+	font-size: 14px;
+    width: 300px;
+}
+.verticalLine p {
+	margin-left: 40px;
+	margin-top: 15px;
+	color: #fb1eb3;
+}
+.titell {
+	display: flex;
+	justify-content: center;
+	margin-top:15px;
+    margin-left: 5px;
+}
+.item_form_dang_ky {
+    position: relative;
+    width: 100%;
+	height: 50px;
+	margin-top: 10px;
+	display: flex;
+    margin-left: 20px;
+}
+.title_dang_ky {
+	width: 30%;
+	padding: 10px 30px;
+}
+.input_dang_ky input {
+	width: 80%;
+	height: 100%;
+}
+.action_dang_ky {
+	margin-left: 150px;
+	width: 292px;
+}
+.action_dang_ky button {
+	width: 200px;
+	height: 40px;
+	background-color: #fe6a00;
+	color: #fff;
+}
+.action_dang_ky button {
+	cursor: pointer;
+}
+.input_field {
+	position: relative;
+	line-height: 44px;
+    width: 70%;
+    padding-top: 5px;
+}
+.input_field label {
+    top: 35%;
+    background-color: #ffffff;
+    color: #fd999a;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    font-size: 11px;
+    line-height: 14px;
+    transform: translateY(0);
+	position: absolute;
+	left: 0;
+	width: 30%;
+	transition: 0.2s all;
+	cursor: text;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+.input_field input {
+    background-color: #ffffff !important;
+    position: relative;
+    padding: 15px 20px 11px;
+    outline: none;
+    border: solid 1px rgb(149, 152, 154);
+    border-radius: 4px;
+    color: rgb(44, 50, 53);
+    letter-spacing: .2px;
+    font-weight: 400;
+    font-size: 16px;
+    resize: none;
+    transition: all .2s ease;
+	outline: 0;
+	box-shadow: none;
+    width: 80%;
+    height: 90%;
+}
+.input_field span {
+	top: 35%;
+	text-transform: uppercase;
+	letter-spacing: 0.8px;
+	line-height: 14px;
+	transform: translateY(0);
+	position: absolute;
+	left: 0;
+	transition: 0.2s all;
+	cursor: text;
+	margin-left: 132px;
+}
+.input_field span:hover {
+	cursor: pointer;
+}
+.input_field input:invalid {
+	outline: 0;
+}
+.input_field input:hover{
+    border-color: #fd999a;
+}
+.input_field input:focus {
+	border-color: #00dd22;
+}
+.input_field input:focus ~ label,
+.input_field input:valid ~ label {
+	font-size: 14px;
+	top: 0;
+	color: #00dd22;
+    z-index: 1;
+}

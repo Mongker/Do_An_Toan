@@ -1,0 +1,123 @@
+.content_ho_tro {
+	width: 100%;
+	float: left;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Tahoma;
+	box-sizing: content-box !important;
+	color: #222;
+	font-size: 14px;
+}
+.content_ho_tro_banner {
+	width: 100%;
+	margin-top: 10px;
+}
+.support_content {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	border: 1px solid #ededed;
+	margin-bottom: 30px;
+	margin-top: 5px;
+	background: #fff;
+}
+.help_list {
+	width: 240px;
+	height: auto;
+	float: left;
+	padding: 20px 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.help_detail {
+	width: 960px;
+	float: right;
+	padding: 0 20px 0 20px;
+	font-size: 14px;
+	line-height: 23px;
+	border-left: 1px solid rgb(237, 237, 237);
+}
+.help_detail2{
+	width: 960px;
+	float: right;
+	padding: 0 20px 0 20px;
+	font-size: 14px;
+	line-height: 23px;
+	border-left: 1px solid rgb(237, 237, 237);
+}
+.help_item {
+	border-top: 1px solid #ededed;
+	padding: 10px 15px 10px 0;
+	font-weight: 500;
+	position: relative;
+}
+.help_item > a {
+	font-size: 14px;
+}
+.help_title {
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+.help_title span {
+  font-size: 30px;
+  font-weight: 300;
+}
+.block_btn {
+	text-align: center;
+}
+.btn_buy_course {
+	background-color: #df322f !important;
+	border-radius: 5px;
+	padding: 14px 20px;
+	display: inline-block;
+	width: 100%;
+	height: 50px;
+	color: #fff !important;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.btn_buy_course:hover {
+	opacity: .8;
+	background-color: #df322f;
+	border: #fff !important;
+	padding: 14px 20px;
+	display: inline-block;
+	width: 100%;
+	height: 50px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.btn_cart_course {
+	background-color: #0bb732 !important;
+	color: #fff !important;
+	border-radius: 5px;
+	padding: 10px 20px;
+	display: inline-block;
+	width: 100%;
+	height: 50px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+}
+.btn_cart_course:hover {
+	opacity: .8;
+	background-color:  #0bb732 ;
+	border: #ffffff !important;
+	padding: 14px 20px;
+	display: inline-block;
+	width: 100%;
+	height: 50px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 10px;
+}

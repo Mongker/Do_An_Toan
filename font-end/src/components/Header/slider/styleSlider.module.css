@@ -1,0 +1,237 @@
+.slider_center {
+	display: flex;
+	flex-direction: column;
+	width: 1200px;
+	height: 100%;
+}
+.slider {
+	width: 1200px;
+	height: 350px;
+	display: flex;
+	justify-content: space-between;
+	/*background-color: #61dafb;*/
+}
+.slider .left_slider {
+	width: 267px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.li_danh_muc {
+	text-overflow: ellipsis !important;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.menu_slider {
+	width: 1200px;
+	height: 50px;
+	/*background-color: peachpuff;*/
+	margin-bottom: 0em;
+}
+.picture_slider {
+	width: 100%;
+	height: 350px;
+}
+
+.center_slider {
+	width: 100%;
+	height: 350px;
+}
+.center_slider :hover {
+	cursor: pointer;
+}
+.center_slider img {
+	width: 100%;
+	height: 100%;
+}
+.right_slider {
+	display: flex;
+	flex-direction: column;
+	width: 267px;
+	height: 350px;
+}
+.menu_slider .hot_sale .menu_danhmuc {
+	width: 267px;
+	background-color: #0f7fc1;
+	height: 100%;
+}
+.menu_slider .hot_sale .danhmuc {
+	display: flex;
+	justify-content: center;
+	width: 267px;
+	height: 100%;
+}
+.menu_slider .hot_sale h2 {
+	font-family: courier;
+	margin-top: 5px;
+	color: #ffffff;
+}
+.menu_slider .hot_sale {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 0px;
+	height: 100%;
+	width: 100%;
+}
+.slider .left_slider img {
+	width: 33px;
+	height: 33px;
+}
+.slider .left_slider a {
+	width: 100%;
+	height: 70px;
+	font-family: Arial, Tahoma;
+	color: black;
+}
+
+.icon__category {
+	color: #ffffff;
+	font-size: 20px;
+	margin-right: 15px;
+	padding-top: 10px;
+}
+.menu_slider .hot_sale li i {
+	width: 38px;
+	height: 15px;
+	display: flex;
+}
+.menu_slider .hot_sale li a {
+	color: black;
+	font-family: Arial, Tahoma;
+}
+.menu_hotsale {
+	display: flex;
+	justify-content: space-around;
+	width: 1221px;
+	height: 100%;
+	/*background-color: #c1a1c1;*/
+}
+.dososinh {
+	/*display: flex;*/
+	margin-left: 0px;
+	width: 200px;
+	margin-top: 12px;
+}
+.dososinh .hot_sale_one {
+	display: flex;
+	justify-content: space-between;
+}
+.suabot_ta_bim .hot_sale_tow {
+	display: flex;
+	justify-content: space-around;
+}
+.suabot_ta_bim {
+	margin-left: 0px;
+	width: 350px;
+	margin-top: 12px;
+}
+.khuyenmai_hangmoi {
+	margin-left: 0px;
+	width: 290px;
+	margin-top: 12px;
+}
+.khuyenmai_hangmoi li {
+	display: flex;
+	justify-content: space-around;
+}
+.right_slider :hover {
+	cursor: pointer;
+	margin-right: 5px;
+	margin-left: -5px;
+}
+.left_slider li {
+	width: 100%;
+	height: 50px;
+	line-height: 40px;
+	padding: 0 1em;
+}
+.content_category_list {
+	height: 100%;
+	width: 267px;
+	list-style: none;
+	line-height: 15px;
+	position: relative;
+	margin: 0;
+	border-radius: 5px;
+	background-color: #fff;
+	box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
+	border: 0;
+}
+.content_category_list > li:hover {
+	background: #cde2cd;
+	opacity: 1;
+	visibility: visible;
+	margin-top: 0;
+	transition: all 0.2s ease-in-out;
+	display: block;
+}
+.content_category_list > li:hover .menu_hover {
+	display: block;
+}
+.content_category_list > li:hover .menu_hover_six {
+	display: block;
+}
+.content_category_list > li {
+	display: block;
+	text-align: left;
+}
+.menu_hover {
+	width: 534px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 267px; /*cho ngang hàng với menu cha, vì menu cha có border - 1 nên ta phải trừ đi 1*/
+	display: none;
+	z-index: 999999;
+	background-color: #ffffff;
+	box-shadow: 0 0 10px 4px #e0e0e0;
+	border: 1px solid #daf1ff;
+}
+.menu_hover_six {
+	width: 267px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 267px; /*cho ngang hàng với menu cha, vì menu cha có border - 1 nên ta phải trừ đi 1*/
+	display: none;
+	z-index: 999999;
+	background-color: #ffffff;
+	box-shadow: 0 0 10px 4px #e0e0e0;
+	border: 1px solid #daf1ff;
+}
+.content_category_list > li:hover {
+	display: block;
+}
+.menu_hover:hover {
+	display: flex;
+}
+.menu_hover_six:hover {
+	display: flex;
+}
+.menu_hover_six_none:hover {
+	display: none;
+}
+.menu_hover_row {
+	width: 267px;
+	height: 100%;
+}
+.menu_hover ul,
+.menu_hover_six ul {
+	list-style: none;
+}
+.menu_hover_row_item:hover {
+	background-color: #93cfd6;
+	cursor: pointer;
+	color: red;
+}
+.menu_hover_link {
+}
+/*.menu_hover_link {*/
+/*	display: block;*/
+/*	padding: 8px 0px 8px 10px;*/
+/*	text-decoration: none;*/
+/*	font-size: 1.4rem;*/
+/*	color: #000;*/
+/*}*/

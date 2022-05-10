@@ -1,0 +1,19 @@
+.list_banner{
+    width: 1487px;
+    /*height: 235px;*/
+    /*padding-top: 25px;*/
+    display: flex;
+    justify-content: space-around;
+}
+.list_banner .item_banner .img_banner img{
+    width: 380px;
+    height: 100%;
+    filter: drop-shadow(0 0 5px #ff62fe);
+}
+.item_banner{
+    /*padding-right: 25px;*/
+    cursor: pointer;
+}
+.one {
+    /*padding-left : 8px;*/
+}

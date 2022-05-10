@@ -1,0 +1,177 @@
+.ant-form-item-label{
+    width: 35% !important;
+    text-align: left !important;
+}
+.ant-form-item-control{
+    width: 65% !important;
+}
+.content_account {
+    display: flex;
+    padding:  0 3.125rem;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 191px;
+}
+.user_page_sidebar {
+    display: block;
+    width: 250px;
+    flex-shrink: 0;
+}
+.user_page_brief {
+    display: flex;
+    padding: 15px 0;
+    border-bottom: 1px solid #efefef;
+}
+.user_page_sidebar_menu {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 27px 0 0;
+    cursor: pointer;
+}
+.user_page_sidebar_menu > ul {
+    list-style: none;
+}
+.user_page_sidebar_menu > ul > li {
+    padding: 10px 5px;
+}
+.user_page_sidebar_menu > ul > li:hover {
+    background-color: #93d4e5;
+}
+.user_page_brief__avatar {
+    width: 50px;
+    height: 50px;
+}
+.user_page_brief__avatar a {
+    text-decoration: none;
+    background-color: transparent;
+    color: -webkit-link;
+    cursor: pointer;
+}
+.user_page_brief__right {
+    flex: 1;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-left: 15px;
+}
+.user_page_brief__username {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    min-height: 1rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #333;
+}
+.user_page_brief__username div {
+    display: block;
+}
+._3D9BVC {
+    position: relative;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    width: 980px;
+    box-sizing: border-box;
+    margin-left: 1.6875rem;
+    min-width: 0;
+    background: #fff;
+    border-radius: 0.125rem;
+}
+.h4QDlo {
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    position: relative;
+    min-height: 100%;
+}
+.my_account_section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    padding: 0 30px 20px;
+    background: #fff;
+    font-family: Helvetica Neue, Helvetica, Arial, æ–‡æ³‰é©›æ­£é»‘, WenQuanYi Zen Hei,
+    Hiragino Sans GB, å„·é»‘ Pro, LiHei Pro, Heiti TC, å¾®è»Ÿæ­£é»‘é«”,
+    Microsoft JhengHei UI, Microsoft JhengHei, sans-serif;
+}
+.my_account_section__header {
+}
+.my_account_profile {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: start;
+    align-items: flex-start;
+    margin-top: 10px;
+    padding-top: 15px;
+    border-top: 0.5px solid #e7e7db;
+}
+.my_account_section__header_left {
+    -webkit-box-flex: 1;
+}
+.my_account_section__header_title {
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: #333;
+    text-transform: capitalize;
+}
+.my_account_section__header_subtitle {
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+    color: #555;
+    margin-top: 3px;
+}
+.my_account_profile__left {
+    width: 420px;
+    -webkit-box-flex: 1;
+    flex: 1;
+    margin-right: 10px;
+}
+.my_account_profile__right {
+    width: 410px;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #efefef;
+    margin-left: 10px;
+    padding-left: 20px;
+}
+.my_account_profile__left_item {
+    padding-top: 2px;
+    display: flex;
+    width: 100%;
+}
+.form_account_admin{
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: start;
+    align-items: flex-start;
+    margin-top: 10px;
+    padding-top: 15px;
+    border-top: 0.5px solid #e7e7db;
+}
+.my_account_profile__left_item_title {
+    margin-right: 10px;
+    padding-top: 5px;
+    width: 120px;
+}
+.my_account_profile__left_item_input {
+    width: 300px;
+}
+.content_left{
+    display: flex;
+    margin-top: 20px;
+}
+.avatar-uploader > .ant-upload {
+    width: 128px;
+    height: 128px;
+}
+.content{
+    background-color: #ffffff !important;
+}
+

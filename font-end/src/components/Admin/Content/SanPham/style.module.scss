@@ -1,0 +1,97 @@
+.controller {
+    display: flex;
+    flex-direction: column;
+}
+.item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.item_sanpham {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #ccc!important;
+    border-left: 1px solid #ccc!important;
+    border-right: 1px solid #ccc!important;
+    height: 50px;
+}
+.item_sanpham:hover {
+    background-color: #ffb6c1;
+    cursor: default;
+}
+
+.sanpham {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+
+.item_item {
+    height: 50px;
+    /*border: 1px solid #b883b5;*/
+    background-color: pink;
+    border-radius: 20px 20px 0 0;
+}
+
+.controller_content_modal {
+    display: flex;
+    flex-direction: column;
+}
+.content_item_modal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.content_title_item_modal {
+    width: 200px;
+    font-weight: bold;
+}
+.content_value_item_modal {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.table_product{
+    :global {
+        .ant-table-container {
+            border-radius: 25px !important;
+        }
+        .ant-table-thead {
+            .ant-table-cell {
+                background-color: #28e0c9 !important;
+            }
+            .ant-table-cell:first-child {
+                border-top-left-radius: 24px !important;
+            }
+            .ant-table-cell:last-child {
+                border-top-right-radius: 24px !important;
+            }
+        }
+        .ant-table-fixed-header {
+            //border: 2px solid #28e0c9;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-radius: 25px !important;
+        }
+        .ant-table-body {
+            .ant-table-tbody {
+                .ant-table-cell:first-child {
+                    border-bottom-left-radius: 24px !important;
+                }
+                .ant-table-cell:last-child {
+                    border-bottom-right-radius: 24px !important;
+                }
+            }
+        }
+        .ant-table-pagination-right {
+            justify-content: center !important;
+        }
+    }
+}

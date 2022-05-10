@@ -1,0 +1,10 @@
+.form_slider{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    position: static;
+    float: left;
+    margin-top: 191px;
+}
+

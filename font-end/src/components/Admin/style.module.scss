@@ -1,0 +1,39 @@
+#components-layout-demo-custom-trigger .trigger {
+	padding: 0 24px;
+	font-size: 18px;
+	line-height: 64px;
+	cursor: pointer;
+	transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+	color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+	height: 32px;
+	margin: 16px;
+	background: rgba(255, 255, 255, 0.3);
+	cursor: pointer;
+}
+.site_layout_background{
+	padding: 0;
+}
+.site_layout .site_layout_background {
+	background: #fff;
+}
+.menu_admin{
+	:global{
+		.ant-menu-vertical .ant-menu-item,
+		.ant-menu-vertical-left .ant-menu-item,
+		.ant-menu-vertical-right .ant-menu-item,
+		.ant-menu-inline .ant-menu-item,
+		.ant-menu-vertical .ant-menu-submenu-title,
+		.ant-menu-vertical-left .ant-menu-submenu-title,
+		.ant-menu-vertical-right .ant-menu-submenu-title,
+		.ant-menu-inline .ant-menu-submenu-title {
+			margin-top: 0 !important;
+		}
+	}
+}
+

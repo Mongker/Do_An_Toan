@@ -1,0 +1,310 @@
+.wrap_oder{
+    width: 1200px;
+    margin: 0 auto;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header_oder{
+    float: left;
+    width: 1200px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.header_oder_1{
+    float: left;
+    width: 1200px;
+    height: 80px;
+    display: flex;
+}
+.logo_oder{
+    float: left;
+    width: 300px;
+    margin-top: 20px;
+}
+.oder_header_icon{
+    float: right;
+    position: relative;
+    color: #1787c6;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 35px 0 0 0;
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+}
+.box_icon_item_1{
+    display: flex;
+    justify-content: space-around;
+    height: 52px;
+    float: left;
+    width: 180px;
+}
+.box_icon_item_2{
+    display: flex;
+    justify-content: space-around;
+    height: 52px;
+    float: left;
+    width: 220px;
+}
+.box_icon_item_3{
+    display: flex;
+    justify-content: space-around;
+    height: 52px;
+    float: left;
+    width: 220px;
+}
+.box_icon_ic_icon_ship{
+    background: url("https://shoptretho.com.vn/Areas/Desktop/Content/Images/icon-update-v20151030.png");
+    width: 42px;
+    height: 42px;
+    background-position: 0 -55px;
+    display: inline-block;
+    float: left;
+    margin-right: 5px;
+    color: #1787c6;
+}
+.box_icon_bg_icon_ship{
+    background: url("https://shoptretho.com.vn/Areas/Desktop/Content/Images/icon-update-v20151030.png");
+    width: 42px;
+    height: 42px;
+    background-position: -42px -55px;
+    display: inline-block;
+    float: left;
+    margin-right: 5px;
+    color: #1787c6;
+}
+.box_icon_chinhhang{
+    background: url("https://shoptretho.com.vn/Areas/Desktop/Content/Images/icon-update-v20151030.png");
+    width: 42px;
+    height: 42px;
+    background-position: -84px -55px;
+    display: inline-block;
+    float: left;
+    margin-right: 5px;
+    color: #1787c6;
+}
+.giao_hang{
+    margin: 10px 0 0 5px;
+    float: left;
+}
+.login_oder{
+    background-color: #f8f8f8;
+    border: 1px dashed #dedede;
+    float: left;
+    width: 1200px;
+    line-height: 43px;
+    margin: 10px 0 0 0;
+    padding-left: 5px;
+    color: #666666;
+    font-size: 14px;
+}
+.login_order b {
+    font-weight: bold;
+    margin: 0 5px 0 5px;
+    color: #1155cc;
+    cursor: pointer;
+}
+.main_order{
+    float: left;
+    border: 1px solid #ececec;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.cart_error{
+    text-align: center;
+    padding: 10px 0 0;
+    color: #ff0000;
+    font-size: 15px;
+    font-weight: bold;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+.left_order {
+    float: left;
+    width: 800px;
+    border-right: 1px solid #ececec;
+    padding-bottom: 20px;
+    display: flex;
+}
+.right_order {
+    width: 400px;
+    position: relative;
+    float: left;
+    border-left: 1px solid #ececec;
+    left: -1px;
+    padding-bottom: 20px;
+}
+.thong_tin, .thanh_toan, .box_cart_info {
+    float: left;
+    margin: 0 23px 0px 23px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+}
+.tieu_de {
+    text-transform: uppercase;
+    border-left: 5px solid #cccccc;
+    background-color: #f5f5f5;
+    line-height: 32px;
+    width: 100%;
+    float: left;
+    padding-left: 9px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.form_thanh_toan{
+    width: 100%;
+    height: 100%;
+}
+#components-form-demo-control-hooks .ant-btn {
+    margin-right: 8px;
+}
+.gt{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.so_luong{
+    text-transform: none;
+    margin-left: 5px;
+    font-size: 13px;
+}
+.cart_img{
+    width: 102px;
+    float: left;
+    margin-right: 6px;
+}
+.cart_img img{
+    border: 1px solid #f6f6f6;
+    margin-top: 3px;
+    width: 100px;
+}
+.item_cart{
+    width: 380px;
+    float: left;
+    display: flex;
+    border-top: 1px solid #ddd;
+    margin: 5px 0 5px 25px;
+    padding: 5px 0 5px 0;
+}
+.cart_name{
+    width: 380px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart_sl{
+    margin-top: 2px;
+    float: left;
+    width: 230px;
+    color: #a0a0a0;
+}
+.name_box{
+    width: 100%;
+    display: flex;
+}
+.name{
+    width: 70%;
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+}
+.gia{
+    width: 30%;
+    margin-top: 40px;
+}
+.total_text{
+    font-weight: bold;
+}
+.line_order{
+    width: 350px;
+    margin-left: 40px;
+    padding-top: 10px;
+}
+.total_money{
+    font-weight: bold;
+    color: #f84b4b;
+    float: right;
+    font-size: 17px;
+}
+.btn_finish{
+    float: left;
+    width: 100%;
+    text-align: center;
+    //margin-top: 20px;
+}
+.xong{
+    background-color: #ff62fe !important;
+    width: 270px;
+    margin-left: 40px !important;
+}
+.xong:hover{
+    background-color: #ff6723 !important;
+    color: #fff;
+}
+.footer_order{
+    width: 100%;
+    float: left;
+    height: 60px;
+    font-size: 13px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.popup_home{
+    display: flex;
+    flex-direction: column;
+}
+.popup_home a{
+    color: #1155cc;
+    cursor: pointer;
+}
+.popup_home span{
+    margin-left: 3px;
+    color: #666666;
+}
+.btn_logo{
+    width: 100% !important;
+    height: 100% !important;
+    background-color: #ffffff;
+}
+.btn_logo:hover{
+    background-color: #ffffff;
+}
+.textarea_diachi {
+    :global {
+        textarea.ant-input {
+            max-width: unset;
+            width: 380px !important;
+        }
+    }
+}
+.textarea_message {
+    :global {
+        textarea.ant-input {
+            max-width: unset;
+            width: 320px !important;
+        }
+    }
+}
+
+.table_product {
+    margin-left: 30px;
+    :global {
+        .ant-col-16 {
+            max-width: 95%;
+        }
+    }
+}

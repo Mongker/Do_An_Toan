@@ -1,0 +1,240 @@
+.list_hot {
+	width: 1200px;
+	height: 100%;
+}
+.old_price{
+	color: #6b6b6b;
+	text-decoration: line-through;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-family: Arial,Tahoma;
+	font-size: 10px;
+}
+.header_hot {
+	display: flex;
+	justify-content: space-between;
+	height: 10%;
+}
+.sale {
+	margin: 25px 30px;
+	width: 50%;
+	height: 90%;
+	line-height: 30px;
+	text-transform: uppercase;
+	display: inline-block;
+	background: url('https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/fb1088de81e42c4e538967ec12cb5caa.png')
+		50% no-repeat;
+	background-size: contain;
+}
+.xem_tat_ca {
+	display: flex;
+	margin-right: 30px;
+}
+.xem_tat_ca a {
+	color: #ee4d2d;
+	font-size: 18px;
+	display: block;
+	margin: 15px 0;
+}
+.btn_xem {
+	color: #ee4d2d !important;
+	font-size: 16px;
+	padding: 0.3125rem 0.4375rem;
+}
+.btn_xem:hover{
+	color: #ee4d2d;
+}
+.btn_xem:hover{
+	color: #ee4d2d;
+	background-color: #ffffff;
+}
+.content_host {
+	height: 100%;
+	display: flex;
+	margin-top: 0px !important;
+	flex-direction: column;
+	background-color: #ffffff;
+}
+.content_host_item {
+	width: 100%;
+	height: 90%;
+	display: flex;
+	margin-top: 20px !important;
+	/*flex-direction: column;*/
+	justify-content: space-around;
+}
+.btn_tang {
+	opacity: 1;
+	/*visibility: hidden;*/
+	transform: translateX(calc(50% - 0px));
+	margin-top: -12.5px;
+	background-color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	border-color:#fff !important;
+	width: 35px !important;
+	height: 35px !important;
+	color: #282c34;
+	right: 0;
+	top: 50%;
+}
+.btn_tang:hover{
+	width: 50px !important;
+	height: 50px !important;
+	background-color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	color: #282c34;
+	border-color:#fff !important;
+}
+.btn_giam {
+	opacity: 1;
+	visibility: visible;
+	width: 35px !important;
+	height: 35px !important;
+	background-color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	color: #282c34;
+	border-color:#fff !important;
+	transform: translateX(calc(-50% + 0px));
+	margin-top: -12.5px;
+	/*background-color: #fff;*/
+	left: 0;
+	top: 50%;
+}
+.btn_giam:hover{
+	width: 50px !important;
+	height: 50px !important;
+	background-color: #fff !important;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	color: #282c34;
+	border-color:#fff !important;
+}
+.paganation_page {
+	margin-top: 20px;
+	display: flex;
+	justify-content: flex-end;
+}
+.card_item {
+	width: 150px;
+	height: 250px;
+	margin-top: 15px;
+}
+.card_item_all_flash{
+	width: 189px;
+	height: 280px;
+	padding: 0.3125rem 0.3125rem 0.625rem 0.3125rem;
+	flex: 0 0 auto;
+	margin-left: 0.4125rem;
+	margin-top: 1.2125rem;
+}
+.card_item_all_flash:hover{
+	box-shadow: rgb(226, 104, 210) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px,
+	rgba(17, 17, 26, 0.1) 0px 16px 56px !important;
+}
+.card_item:hover {
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px !important;
+}
+.time_sale {
+	background-color: #151313;
+	width: 30%;
+	height: 100%;
+	margin: 20px 0px;
+	padding-left: 25px;
+	border-radius: 16px;
+}
+._2TDZGE {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-weight: 400;
+	line-height: 0.4125rem;
+	color: #ee4d2d;
+	text-transform: uppercase;
+	font-size: 0.3rem;
+	float: right;
+	margin-left: 0.3125rem;
+	background-color: rgba(255, 212, 36, 0.9);
+	transform: scale(1.4);
+	padding: 6px 6px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 3;
+}
+._17XqBU {
+	color: #fff;
+}
+.content_flash_sale{
+	margin-top: 191px;
+}
+.title_content_flash_sale{
+	padding: 15px 0;
+	left: 0;
+	top: 0;
+	z-index: 3;
+	opacity: .95;
+	background: #fff;
+	display: flex;
+	/*box-shadow: 0 1px 1px rgb(0 0 0 / 5%);*/
+}
+.title_content_flash_sale_item{
+	-webkit-box-pack: center;
+	justify-content: center;
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+	height: 30px;
+	line-height: 1.875rem;
+	margin: 0 auto;
+	position: relative;
+	pointer-events: all;
+}
+.title_content_flash_sale_item::before{
+	right: 100%;
+	margin-right: 14px;
+	content: "";
+	position: absolute;
+	border-bottom: 1px solid rgba(0,0,0,.6);
+	top: 40%;
+	width: 20px;
+}
+.title_content_flash_sale_item::after{
+	left: 100%;
+	margin-left: 14px;
+	content: "";
+	position: absolute;
+	border-bottom: 1px solid rgba(0,0,0,.6);
+	top: 40%;
+	width: 20px;
+}
+.item_content{
+	padding-left: 16px;
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	text-transform: uppercase;
+	display: inline-block;
+	background: url('https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/fb1088de81e42c4e538967ec12cb5caa.png') 50% no-repeat;
+	background-size: contain;
+}
+.item_content_ketthuc{
+	width: auto;
+	background-size: 16px;
+	padding-left: 20px;
+	white-space: nowrap;
+	margin: 0 .625rem;
+	height: 30px;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+.values_content_flash_sale{
+	width: 1200px;
+	margin: 20px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}

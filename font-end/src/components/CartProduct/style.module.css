@@ -1,0 +1,106 @@
+.form_cart {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.header_cart {
+	width: 1200px;
+	height: 102px;
+}
+.container_wrapper {
+	width: 100%;
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+	background: #fff;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+	height: 4.25rem;
+}
+.container {
+	width: 1200px;
+	height: 46px;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	align-items: center;
+}
+.gio_hang {
+	margin-left: 0.9375rem;
+	border-left: 0.0625rem solid #ee4d2d;
+	color: #ee4d2d;
+	font-size: 1.1rem;
+	line-height: 1.875rem;
+	height: 1.875rem;
+	padding-left: 0.9375rem;
+	margin-bottom: 0.0625rem;
+	text-transform: capitalize;
+}
+.img_header_cart {
+	padding-left: 1.125rem;
+	-webkit-box-flex: 1;
+	display: flex;
+	width: 579px;
+}
+.search_header_cart {
+	width: 621px;
+	position: relative;
+	display: flex;
+}
+.content_wart_cart {
+	width: 1200px;
+	min-height: 500px;
+	margin-top: 50px;
+}
+.content_cart {
+}
+.demo-infinite-container {
+	height: 300px;
+	padding: 8px 24px;
+	overflow: auto;
+	border: 1px solid #e8e8e8;
+	border-radius: 4px;
+}
+.demo-loading-container {
+	position: absolute;
+	bottom: 40px;
+	width: 100%;
+	text-align: center;
+}
+.item_list_cart {
+	display: flex;
+	font-family: 'Helvetica Neue', Helvetica, Arial, 文泉驛正黑, 'WenQuanYi Zen Hei',
+	'Hiragino Sans GB', '儷黑 Pro', 'LiHei Pro', 'Heiti TC', 微軟正黑體,
+	'Microsoft JhengHei UI', 'Microsoft JhengHei', sans-serif;
+}
+.gia_item_cart {
+    margin-right: 15px;
+	margin-top: 5px;
+	display: flex;
+	flex-direction: column;
+}
+.so_luong_item_cart{
+	width: 150px;
+}
+.tong_tien_item_cart{
+	margin-left: 15px;
+	margin-top: 5px;
+}
+.action_item_cart{
+	display: flex;
+	justify-content: space-between;
+}
+.check_item_cart{
+	margin-left: 15px;
+	margin-top: 5px;
+}
+.header_item_cart{
+	height: 80px !important;
+}
+.modal_xem_tat_ca{
+	width: 1200px !important;
+}
+.footer_wart_cart{
+	width: 100%;
+}
